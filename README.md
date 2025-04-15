@@ -12,14 +12,17 @@
 - Bioinformatics & multi-omics integration
 
 ## 🚀 Featured Projects
-### **1. Predicting Microbiome-Disease Interactions with Machine Learning**
-- Developed **LASSO regression** models to identify gut microbial signatures linked to myocarditis severity
-- Used **Python (scikit-learn, pandas, NumPy)** for data preprocessing, feature selection, and model evaluation
+### **1. Gut Microbiota Ecology and Composition Analysis**  
+- Processed large-scale NGS datasets using **DADA2** and **phyloseq** in R  
+- Visualized beta diversity via **PCoA** and identified significant shift via **PERMENOVA** analysis
+- Performed **differential abundance analysis** using **DESeq2** to identify taxa enriched in disease states 
 
-### **2. Strain-Level Classification of Lactobacillus reuteri**
-- Applied **PCA and hierarchical clustering** to classify *L. reuteri* strains based on whole-genome sequences
-- Built a phylogenetic tree using **Nextflow, Bash, and Python**
+### **2. Predicting Microbiome-Disease Interactions with Machine Learning**
+- Developed **LASSO regression** models to identify central taxa linked to cardiomyopathy severity 
+- Integrated host metadata to assess correlations with disease phenotypes  
 
-### **3. Functional Microbial Signatures for Cardiomyopathy**
-- Identified key microbial metabolic pathways associated with disease severity using **XGBoost feature importance**
-- Used **R (DATA2, phyloseq)** to analyze microbiome sequencing data
+### **3. Strain-Level Characterization of *Lactobacillus***  
+- Assembled whole genomes of *L. reuteri* strains using **SPAdes** and annotated them with **Prokka**  
+- Identified orthologous genes using **BLAST** and **HMMER**, followed by multiple sequence alignment with **MAFFT**  
+- Reconstructed phylogenetic relationships using **FastTree**, with interactive tree visualization in **iTOL**  
+- Automated genome analysis pipeline using **Nextflow**, **Bash**, and **Python** for reproducibility
